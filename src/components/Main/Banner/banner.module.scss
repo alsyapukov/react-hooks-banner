@@ -1,0 +1,34 @@
+.banner {
+  padding: 20px;
+  min-height: 100vh;
+
+  .title {
+    font-size: 20px;
+  }
+  .imgVertical {
+    width: 200px;
+    height: 300px;
+    @media screen and (min-width: 768px){
+      display: none;
+    }
+  }
+  .imgHorizontal {
+    width: 300px;
+    height: 200px;
+    @media screen and (max-width: 767px){
+      display: none;
+    }
+  }
+  .imgVertical,
+  .imgHorizontal {
+    margin-top: 20px;
+    .image {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .button {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,23 @@
+.aside {
+  height: 100%;
+}
+
+.nav {
+  padding: 20px;
+  position: sticky;
+  top: 20px;
+
+  .item {
+    cursor: pointer;
+    padding: 10px;
+    transition: background-color .2s linear;
+
+    &.active {
+      background-color: rgb(216, 216, 216);
+    }
+
+    &:hover {
+      background-color: rgb(179, 179, 179);
+    }
+  }
+}

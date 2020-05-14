@@ -1,0 +1,17 @@
+.main {
+  width: 1000px;
+  display: flex;
+
+  @media screen and (max-width: 1000px){
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .aside {
+    width: 270px;
+  }
+
+  .content {
+    flex-grow: 1;
+  }
+}
